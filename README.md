@@ -1,5 +1,5 @@
 # ChatPDF
-A Retrieval Augmented Generation based chatbot that uses lanchain, embeddings and LLMs to answer any query related to the GE Documentation.
+A Retrieval Augmented Generation based chatbot that uses langchain, embeddings and LLMs to answer any query related to the GE Documentation.
 ![Alt text](images/ss1.png?raw=true "Title")
 ![Alt text](images/ss2.png?raw=true "Title")
 
