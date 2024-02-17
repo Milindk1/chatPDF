@@ -7,14 +7,6 @@ A Retrieval Augmented Generation based chatbot that uses langchain, embeddings a
 
 - GE HealthCare (GEHC) manages a vast volume of medical documentation across various languages and modalities. Customers and GE Field engineers face challenges in efficiently accessing and retrieving specific information, potentially causing operational delays and affecting patient care.
 
-## Architecture 
-
-- Creating the vector Database
-![Alt text](images/rag.png?raw=true "Title")
-- Using Langchain to retrieve context and answer the query
-![Alt text](images/rag2.png?raw=true "Title")
-
-
 ## Our Solution 
 
 - The Data Retrieval Engine interfaces with the documentation portal's database, converts them into embeddings and stores them into a vector database, retrieves relevant information, and provides context. 
@@ -25,6 +17,13 @@ A Retrieval Augmented Generation based chatbot that uses langchain, embeddings a
   - Retrieves the top-k relevant contexts – measured by distance between the query embedding and all the embedded chunks in our knowledge base.
   - Passes the query text and retrieved context text to our LLM.
   - The LLM will generate a response using the provided content.
+
+ ## Architecture 
+
+- Creating the vector Database
+![Alt text](images/rag.png?raw=true "Title")
+- Using Langchain to retrieve context and answer the query
+![Alt text](images/rag2.png?raw=true "Title")
 
 ## Experiments 
 
